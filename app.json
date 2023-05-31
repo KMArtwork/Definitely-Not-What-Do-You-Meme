@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "reactNativeApp",
-    "slug": "reactNativeApp",
+    "slug": "reactnativeapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d077f4df-b7f3-4a26-9bb4-765836e50dc8"
+      }
+    },
+    "owner": "kmdevsign"
   }
 }
