@@ -8,6 +8,12 @@ A mobile-friendly spin on the game "What do you meme?". Users a provided a capti
 
 Ideally, this game would be played with friends and everyone would vote on which image is the best / funniest but as of right now it's just a proof of concept so there is no voting.
 
+## User Stories
+
+- The user should be able to browse their phone's local files &/o their files from the cloud to choose an image
+
+- The user should see a new caption / prompt upon sending the image
+
 ## UML
 ![UML](./UML.JPG)
 
