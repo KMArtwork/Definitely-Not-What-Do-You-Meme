@@ -11,7 +11,7 @@ const captionsSlice = createSlice({
     activeCaptionIdx: 0,
   },
   reducers: {
-    receiveSubmit(state, action){
+    newCaption(state, action){
       state.activeCaptionIdx = Math.floor(Math.random() * state.captions.length)
     }
   }

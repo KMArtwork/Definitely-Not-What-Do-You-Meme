@@ -4,6 +4,7 @@ const imagesSlice = createSlice({
   name: 'images',
   initialState: {
     selectedImage: null,
+    voteImages: [],
   },
   reducers: {
     resetImage(state, action){
@@ -11,6 +12,9 @@ const imagesSlice = createSlice({
     },
     setImage(state, action){
       state.selectedImage = action.payload
+    },
+    addToVoteImages(state, action){
+      state.voteImages = [...state.voteImages, action.payload]
     }
   }
 })
